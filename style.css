@@ -64,7 +64,7 @@ body {
   text-align: right;
   position: relative;
   gap: 20px;
-  padding: 40px;
+  padding: 30px;
   justify-items: end;
 }
 
@@ -202,6 +202,13 @@ footer {
     margin: 10px;
   }
 }
+@media (max-width: 700px) {
+  .menu li {
+    position: relative;
+    margin-left: -30px;
+    margin-right: 0;
+  }
+}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -211,6 +218,7 @@ footer {
     --opacidade: none;
   }
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
     --fundo: #606060;
